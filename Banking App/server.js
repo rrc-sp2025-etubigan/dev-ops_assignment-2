@@ -43,15 +43,11 @@ app.post('/', (req, res) => {
 			<title>Express Greeting App</title>
 		</head>
 		<body>
-			<h1>Welcome to the Banking App Auto Deploy</h1>
-			<h2>Login or Register</h2>
+			<h1>Enter Your Name</h1>
 			<form method="POST">
-				<label for="username">Name:</label>
-				<input type="text" id="username" name="username" required>
-				<label>Password:</label>
-				<input type="text" id="password" name="password" required>
-				<button type="submit">Login</button>
-				<button type="button">Register</button>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<button type="submit">Submit</button>
 			</form>
 			<p>${greeting}</p>
 		</body>
